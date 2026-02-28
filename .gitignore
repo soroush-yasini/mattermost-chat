@@ -1,0 +1,11 @@
+# Secrets and generated files — never commit these
+.env
+nginx/certs/
+backups/
+
+# TLS / PKI artifacts
+*.key
+*.crt
+*.csr
+*.srl
+*.ext
